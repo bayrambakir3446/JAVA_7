@@ -1,0 +1,15 @@
+package gunler.day6;
+
+public class DegiskenIsimlendirme {
+    public static void main(String[] args) {
+        int alininOkulNumarasi = 1255;
+        String enCokSatanKitapTuru = "Roman";
+        //ozel karakterler isim icinde kullanilmaz istisnalar _ $
+        int _$numara = 200;
+        int numara1 = 300; // rakamlar isim icinde kullanilabilir fakat ilk karakter olarak kullanilmaz
+        boolean _sonuc = true;
+        boolean sonuc2 = false;
+        double agirlik8 = 100.10;
+
+    }
+}

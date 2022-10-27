@@ -1,4 +1,4 @@
-package gunler.day6;
+package gunler.gun6;
 
 public class Concatenation {
     public static void main(String[] args) {

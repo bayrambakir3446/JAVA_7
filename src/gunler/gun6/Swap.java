@@ -1,4 +1,4 @@
-package gunler.day6;
+package gunler.gun6;
 
 public class Swap {
     public static void main(String[] args) {

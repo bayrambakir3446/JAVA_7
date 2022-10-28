@@ -26,7 +26,7 @@ public class TypePromotion2 {
         float result3 = f1 + i1;
         long result4 = l1 + i1;
         double result5 = d1 + f1;
-
+        
         System.out.println("result3 = " + result3);
         System.out.println("result4 = " + result4);
         System.out.println("result5 = " + result5);

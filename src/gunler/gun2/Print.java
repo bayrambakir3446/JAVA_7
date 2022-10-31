@@ -1,4 +1,4 @@
-package gunler.gun1;
+package gunler.gun2;
 
 public class Print {
 }

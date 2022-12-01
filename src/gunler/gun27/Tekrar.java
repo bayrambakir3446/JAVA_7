@@ -4,7 +4,7 @@ public class Tekrar {
 
     protected void finalize() {
         System.out.println("garbage collector calisti");
-        super.getClass();
+//        super.getClass();
     }
 
     int sayi;

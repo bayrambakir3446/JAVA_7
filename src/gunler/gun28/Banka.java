@@ -1,5 +1,8 @@
 package gunler.gun28;
 
+
+import gunler.gun26.Cake;
+
 public class Banka {
 
     String hesapSahibi;
@@ -8,30 +11,30 @@ public class Banka {
     static String bankaAdi = "EuroTechBank";
 
 
-    public void paraYatir(double miktar){
+    public void paraYatir(double miktar) {
         bakiye += miktar;
         System.out.println(hesapNumarasi + " nolu hesabiniza " + miktar + " TL miktarinda para yatirilmistir.");
     }
 
-    public void paraCek(double miktar){
-        if(miktar <= bakiye){
+    public void paraCek(double miktar) {
+        if (miktar <= bakiye) {
             bakiye -= miktar;
             System.out.println(hesapNumarasi + " nolu hesabinizdan " + miktar + " TL miktarinda para cekilmistir.");
-        }else{
+        } else {
             System.out.println("Uzgunum hesabinizda yeterli bakiye bulunmamaktadir.");
         }
     }
 
-    public void satinAl(String urunIsmi, double fiyat){
-        if(fiyat <= bakiye){
+    public void satinAl(String urunIsmi, double fiyat) {
+        if (fiyat <= bakiye) {
             bakiye -= fiyat;
-            System.out.println(urunIsmi + " isimli urun icin " + fiyat + " TL kadar odeme yapilmistir." );
-        }else{
+            System.out.println(urunIsmi + " isimli urun icin " + fiyat + " TL kadar odeme yapilmistir.");
+        } else {
             System.out.println("Urun fiyati icin bakiyeniz yeterli degildir");
         }
     }
 
-    public void bakiyeGoster(){
+    public void bakiyeGoster() {
         System.out.println("-----------------");
         System.out.println("Banka Adi : " + bankaAdi);
         System.out.println("Hesap Sahibi : " + hesapSahibi);

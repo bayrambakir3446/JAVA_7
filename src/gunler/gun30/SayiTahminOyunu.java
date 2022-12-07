@@ -6,7 +6,7 @@ public class SayiTahminOyunu {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Lutfen 1 ile 30 arasi bit rakam tahmin ediniz!");
+        System.out.println("Lutfen 1 ile 30 arasi bir rakam tahmin ediniz!");
         int input;
         int gizliSayi = 15;
         int sayac = 0;

@@ -14,8 +14,12 @@ public class Metotlar4 {
         sehir.trim();// stringin baslangic ve son kismindaki bosluklari silmemizi saglar
         sehir.toLowerCase();// stringin tamamini kucuk harflerle dondurur
         sehir.toUpperCase();// stringin tamamini buyuk harfle dondurur
-        sehir.replace("adanada","Bursa");//verdigimiz stringin yerine parametredeki stringi degistirir
-
-
+        sehir.replace("adanada", "Bursa");//verdigimiz stringin yerine parametredeki stringi degistirir
+        sehir.startsWith("ey");
+        sehir.endsWith("");
+        sehir.equals("");
+        sehir.equalsIgnoreCase("");
+        sehir.concat("");
+        sehir.contains("");
     }
 }

@@ -17,15 +17,15 @@ public class ArraysReview {
     3- Arrays.toString() method
      */
     public static void forLoopPrint(String[] arr){
-        System.out.println("arr = " + arr);
+        System.out.println("arr = " + arr);//prints hashcode-address of array object
         System.out.println("Traversing given array with for...loop");
         for (int i = 0; i < 3; i++) {
             System.out.println(i+1 + "- Öğrenci = " + arr[i]);
         }
     }
     public static void forEachPrint(String[] arr){
-        System.out.println("arr = " + arr);
-        System.out.println("Traversing given array with for. each.loop");
+        System.out.println("arr = " + arr);//prints hashcode-address of array object
+        System.out.println("Traversing given array with for...each loop");
         int i = 1;
         for (String ogrenci:arr) {
             System.out.println(i + "- Öğrenci = " + ogrenci);
@@ -53,7 +53,7 @@ public class ArraysReview {
         System.out.println("Arrays in Java.");
         String[] ogrListesi = {"Ahmet","Mehmet","Merry"};
 
-        System.out.println("ogrListesi = " + ogrListesi);
+        System.out.println("ogrListesi = " + ogrListesi);//prints hashcode-address of array object
 
         /*System.out.println("For loop");
         for (int i = 0; i < 3; i++) {

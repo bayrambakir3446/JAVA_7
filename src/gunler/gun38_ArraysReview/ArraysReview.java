@@ -5,7 +5,7 @@
  * armada.dscrd@gmail.com
  */
 
-package gun38_ArraysReview;
+package gunler.gun38_ArraysReview;
 
 import java.util.Arrays;
 
@@ -48,7 +48,6 @@ public class ArraysReview {
             }
             i++;
         }
-
     }
     public static void main(String[] args) {
         System.out.println("Arrays in Java.");

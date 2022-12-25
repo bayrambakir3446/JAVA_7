@@ -5,7 +5,7 @@
  * armada.dscrd@gmail.com
  */
 
-package gun38_ArraysReview;
+package gunler.gun38_ArraysReview;
 
 public class Kisi {
     String ad;

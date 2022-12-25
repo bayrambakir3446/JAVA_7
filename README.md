@@ -1,4 +1,4 @@
- <a href="https://www.eurotechstudy.com/" target="_blank" rel="noreferrer"> <img src="logo_EuroTech-White.png" alt="EuroTech Study"/> </a>
+ <a href="https://www.eurotechstudy.com/" target="_blank" rel="noreferrer"> <img src="EuroTech-Logo.png" alt="EuroTech Study"/> </a>
 
 # [EuroTech Study](https://www.eurotechstudy.com/)
 https://www.eurotechstudy.com/

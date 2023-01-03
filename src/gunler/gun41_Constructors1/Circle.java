@@ -9,7 +9,7 @@ public class Circle {
        radius = 1;
    }
 
-   //Parameter constructor
+   //Parameterized constructor
    Circle(double yariCap){
        System.out.println("Parameterize constructor called/invoked- value of = " + yariCap);
        radius = yariCap;

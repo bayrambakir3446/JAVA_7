@@ -15,7 +15,5 @@ public class CircleTest {
         System.out.println("Daire2 radius = " + daire2.radius);
         System.out.println(daire2.radius + " yarıçaplı Dairenin alanı = " + daire2.getArea());
         System.out.println(daire2.radius + " yarıçaplı Dairenin çevresi = " + daire2.getPerimeter());
-
-
     }
 }

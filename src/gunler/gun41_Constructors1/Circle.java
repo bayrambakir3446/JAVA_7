@@ -2,17 +2,16 @@ package gunler.gun41_Constructors1;
 
 public class Circle {
    double radius;
-
    //No-argument Constructor
    Circle(){
        System.out.println("Default no-argument constructor called/invoked");
-       radius = 1;
+       this.radius = 1;
    }
 
    //Parameterized constructor
-   Circle(double yariCap){
-       System.out.println("Parameterize constructor called/invoked- value of = " + yariCap);
-       radius = yariCap;
+   Circle(double radius){
+       System.out.println("Parameterize constructor called/invoked- value of = " + radius);
+        this.radius = radius;
    }
 
   /* double getArea(){

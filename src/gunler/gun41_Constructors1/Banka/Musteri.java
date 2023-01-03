@@ -1,4 +1,4 @@
-package gunler.gun41_Constructors1;
+package gunler.gun41_Constructors1.Banka;
 
 public class Musteri {
     //Data members---veri saklayan değişkenler

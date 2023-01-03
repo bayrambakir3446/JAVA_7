@@ -1,4 +1,4 @@
-package gunler.gun41_Constructors1;
+package gunler.gun41_Constructors1.Banka;
 
 public class BankaProgram {
     public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class BankaProgram {
        banka.musteriEkle(musteri2);
        banka.musteriEkle(musteri1);
 
-       banka.paraCek(musteri3,1500);
+        banka.paraCek(musteri3,1500);
         banka.paraCek(musteri3,1500);
         banka.paraCek(musteri3,2500);
 

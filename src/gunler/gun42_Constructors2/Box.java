@@ -14,6 +14,11 @@ public class Box {
         this.length = l;
     }
 
+    Box(Box box){//Copying two objects each other
+        this.width = box.width;
+        this.length = box.length;
+    }
+
     public int areaCalculate(){
         return this.width * this.length;
       //  System.out.println("Alan = " + (this.width * this.length));
@@ -41,6 +46,11 @@ public class Box {
         return  str;
     }
 
+    public boolean esitMi(Box box){
+        if(this.width == box.width && this.length == box.length){
+            return true;
+        } else return false;
+    }
 
 
    /* public static void main(String[] args) {

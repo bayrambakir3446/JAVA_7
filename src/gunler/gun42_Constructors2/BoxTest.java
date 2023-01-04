@@ -7,6 +7,8 @@ public class BoxTest {
         System.out.println("kutu.length = " + kutu.length);
 
         Box kutu1 = new Box(23,45);
+
+
         System.out.println("kutu1.width = " + kutu1.width);
         System.out.println("kutu1.length = " + kutu1.length);
 
@@ -20,5 +22,15 @@ public class BoxTest {
 
         System.out.println(kutu1);
         System.out.println(kutu);
+
+        kutu.width = 23;
+        kutu.length = 45;
+        System.out.println(kutu==kutu1); //Reference type cannot be compared with == operator.
+        boolean esitmi =  kutu1.esitMi(kutu);
+
+        System.out.println("esitmi = " + esitmi);
+
+        Box kutu2 = new Box(kutu1);
+        kutu2.showInfo();
     }
 }

@@ -1,6 +1,6 @@
 package gunler.gun42_Constructors2;
 
-public class StudentTest {
+public class StudentConstructorChaining {
     public static void main(String[] args) {
         Student ogrenci1 = new Student(12345);
         System.out.println(ogrenci1);

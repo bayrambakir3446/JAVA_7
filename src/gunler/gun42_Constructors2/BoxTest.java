@@ -31,6 +31,9 @@ public class BoxTest {
 
         Box kutu2 = new Box(kutu1); //Passing object to constructor- Creating object with the passing object properties
 
+        System.out.println("kutu1.width = " + kutu1.width);
+        System.out.println("kutu2.length = " + kutu2.length);
+
         kutu2.showInfo();
 
         System.out.println("kutu2.esitMi(kutu1) = " + kutu2.esitMi(kutu1));

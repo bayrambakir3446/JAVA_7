@@ -10,9 +10,6 @@ public class Car {
     }
 
     public String toString() {
-        return "Car{" +
-                "marka='" + marka + '\'' +
-                ", plakasi='" + plakasi + '\'' +
-                '}';
+        return marka + " - " + plakasi;
     }
 }

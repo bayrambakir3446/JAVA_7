@@ -1,4 +1,4 @@
-package gunler.gun42_Constructors2;
+package gunler.gun42_Constructors2.Student;
 
 public class StudentConstructorChaining {
     public static void main(String[] args) {

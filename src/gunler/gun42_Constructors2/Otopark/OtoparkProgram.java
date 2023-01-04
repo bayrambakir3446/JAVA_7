@@ -1,4 +1,4 @@
-package gunler.gun42_Constructors2;
+package gunler.gun42_Constructors2.Otopark;
 
 public class OtoparkProgram {
     public static void main(String[] args) {

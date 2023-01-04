@@ -10,5 +10,15 @@ public class BoxTest {
         System.out.println("kutu1.width = " + kutu1.width);
         System.out.println("kutu1.length = " + kutu1.length);
 
+        System.out.println("kutu1 Alan hesaplaması = " + kutu1.areaCalculate());
+        System.out.println("kutu Alan hesaplaması= " + kutu.areaCalculate());
+
+/*
+       kutu1.showInfo();
+       String bilgi = kutu1.strShowInfo();
+       System.out.println(bilgi);*/
+
+        System.out.println(kutu1);
+        System.out.println(kutu);
     }
 }

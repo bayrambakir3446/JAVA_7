@@ -10,9 +10,39 @@ public class Box {
 
     Box(int w, int l){
         System.out.println("Two parameters constructor.");
-        this.width = w;
+        this.width = w; //this keyword represent the current object being created
         this.length = l;
     }
+
+    public int areaCalculate(){
+        return this.width * this.length;
+      //  System.out.println("Alan = " + (this.width * this.length));
+    }
+
+    public void showInfo(){
+        System.out.println("Kutunun en değeri   = " + this.width);
+        System.out.println("Kutunun boy değeri  = " + this.length);
+        System.out.println("Kutunun alanı       = " + this.areaCalculate());
+    }
+
+    public String strShowInfo(){
+        String str = "";
+        str += "Kutunun en değeri   = " + this.width + "\n";
+        str += "Kutunun boy değeri  = " + this.length + "\n";
+        str += "Kutunun alanı       = " + this.areaCalculate();
+        return  str;
+    }
+
+    public String toString(){
+        String str = "";
+        str += "Kutunun en değeri   = " + this.width + "\n";
+        str += "Kutunun boy değeri  = " + this.length + "\n";
+        str += "Kutunun alanı       = " + this.areaCalculate();
+        return  str;
+    }
+
+
+
    /* public static void main(String[] args) {
         Box box; //declaration
         box = new Box(); //Object created.

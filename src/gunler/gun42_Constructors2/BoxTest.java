@@ -32,5 +32,7 @@ public class BoxTest {
 
         Box kutu2 = new Box(kutu1);
         kutu2.showInfo();
+
+        System.out.println("kutu2.esitMi(kutu1) = " + kutu2.esitMi(kutu1));
     }
 }

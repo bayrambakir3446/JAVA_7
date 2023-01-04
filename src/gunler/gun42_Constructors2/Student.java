@@ -12,12 +12,14 @@ public class Student {
 
     public Student(int schoolNumber){
         this.schoolNumber = schoolNumber;
+        System.out.println("Parameterized-Constructor with 'schoolNumber parameter invoked.");
     }
 
     public Student(int schoolNumber, String name) {
         this(schoolNumber);//Constructor chaining---> calling a constructor from inside the other constructor
         //this.schoolNumber = schoolNumber;
         this.name = name;
+        System.out.println("Parameterized-Constructor with 'schoolNumber' and 'name' parameters invoked.");
     }
 
     public Student(int schoolNumber, String name, String country) {
@@ -25,6 +27,7 @@ public class Student {
        /* this.schoolNumber = schoolNumber;
         this.name = name;*/
         this.country = country;
+        System.out.println("Parameterized-Constructor with 'schoolNumber', 'name' and country parameters invoked.");
     }
 
     public Student(int schoolNumber, String name, String country, String city) {
@@ -33,6 +36,7 @@ public class Student {
         this.name = name;
         this.country = country;*/
         this.city = city;
+        System.out.println("Parameterized-Constructor with 'schoolNumber', 'name', country and city parameters invoked.");
     }
 
     public String toString(){

@@ -24,13 +24,13 @@ public class Box {
       //  System.out.println("Alan = " + (this.width * this.length));
     }
 
-    public void showInfo(){
+    public void showInfo(){//Method prints  the info. about calling object
         System.out.println("Kutunun en değeri   = " + this.width);
         System.out.println("Kutunun boy değeri  = " + this.length);
         System.out.println("Kutunun alanı       = " + this.areaCalculate());
     }
 
-    public String strShowInfo(){
+    public String strShowInfo(){//Method returns the info. about calling object
         String str = "";
         str += "Kutunun en değeri   = " + this.width + "\n";
         str += "Kutunun boy değeri  = " + this.length + "\n";

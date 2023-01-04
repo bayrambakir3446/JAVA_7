@@ -15,11 +15,12 @@ public class OtoPark {
     public void arabaEkle(Car araba){
         System.out.println(araba.marka + " marka " + araba.plakasi + " plakalı araç otoparka giriş yaptı.");
         this.arabalar.add(araba);
-        System.out.println("Otoparkta şuanda " + arabalar.size() +" adet araba var.");
+
     }
     public void arabaListesi(){
         System.out.println(this.name + " park etmiş arabalar listesi");
         System.out.println("------------------------------------------");
+        System.out.println("Otoparkta şuanda " + arabalar.size() +" adet araba var.");
         for (Car araba:this.arabalar){
             System.out.println(araba);
         }

@@ -15,20 +15,20 @@ public class Student {
     }
 
     public Student(int schoolNumber, String name) {
-        this(schoolNumber);
+        this(schoolNumber);//Constructor chaining---> calling a constructor from inside the other constructor
         //this.schoolNumber = schoolNumber;
         this.name = name;
     }
 
     public Student(int schoolNumber, String name, String country) {
-        this(schoolNumber,name);
+        this(schoolNumber,name); //Constructor chaining---> calling a constructor from inside the other constructor
        /* this.schoolNumber = schoolNumber;
         this.name = name;*/
         this.country = country;
     }
 
     public Student(int schoolNumber, String name, String country, String city) {
-        this(schoolNumber,name,country);
+        this(schoolNumber,name,country); //Constructor chaining---> calling a constructor from inside the other constructor
         /*this.schoolNumber = schoolNumber;
         this.name = name;
         this.country = country;*/

@@ -5,4 +5,6 @@ public class Course {
     int maxCapacity;
     int emptyCapacity;
 
+    //PLease write the suitable code for  Course Class to create object of class and to add Student to course
+
 }

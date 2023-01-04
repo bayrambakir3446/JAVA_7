@@ -7,6 +7,7 @@ public class Student {
     String city;
 
     public Student() {
+        System.out.println("Default constructor invoked.");
     }
 
     public Student(int schoolNumber){
@@ -14,20 +15,33 @@ public class Student {
     }
 
     public Student(int schoolNumber, String name) {
-        this.schoolNumber = schoolNumber;
+        this(schoolNumber);
+        //this.schoolNumber = schoolNumber;
         this.name = name;
     }
 
     public Student(int schoolNumber, String name, String country) {
-        this.schoolNumber = schoolNumber;
-        this.name = name;
+        this(schoolNumber,name);
+       /* this.schoolNumber = schoolNumber;
+        this.name = name;*/
         this.country = country;
     }
 
     public Student(int schoolNumber, String name, String country, String city) {
-        this.schoolNumber = schoolNumber;
+        this(schoolNumber,name,country);
+        /*this.schoolNumber = schoolNumber;
         this.name = name;
-        this.country = country;
+        this.country = country;*/
         this.city = city;
+    }
+
+    public String toString(){
+        String str = "";
+        str += "Okul no             : " + this.schoolNumber + "\n";
+        str += "Öğrencinin adı      : " + this.name + "\n";
+        str += "Öğrencinin Ülkesi   : " + this.country + "\n";
+        str += "Öğrencinin Şehri    : " + this.city;
+
+        return str;
     }
 }

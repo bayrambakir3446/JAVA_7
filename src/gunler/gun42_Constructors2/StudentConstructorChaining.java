@@ -18,6 +18,7 @@ public class StudentConstructorChaining {
         Student ogrenci4 = new Student(9876,"Mery Meryson","Kaf dağı ülkesi","Öylesine bir şehir");
         System.out.println(ogrenci4);
         System.out.println("------------------------");
+
     }
 
 }

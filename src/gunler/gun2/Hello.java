@@ -7,7 +7,8 @@ public class Hello {
         System.out.println("Hello Batch 7 ");
         System.out.println("Hello Again");
         System.out.println("test");
-        System.out.println(NEU);
+        System.out.println("NEU");
+        System.out.println("gitti gidiyor");
 
 
 

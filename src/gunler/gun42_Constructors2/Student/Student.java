@@ -1,4 +1,4 @@
-package gunler.gun42_Constructors2;
+package gunler.gun42_Constructors2.Student;
 
 public class Student {
     int schoolNumber;
@@ -12,27 +12,31 @@ public class Student {
 
     public Student(int schoolNumber){
         this.schoolNumber = schoolNumber;
+        System.out.println("Parameterized-Constructor with 'schoolNumber parameter invoked.");
     }
 
     public Student(int schoolNumber, String name) {
-        this(schoolNumber);
+        this(schoolNumber);//Constructor chaining---> calling a constructor from inside the other constructor
         //this.schoolNumber = schoolNumber;
         this.name = name;
+        System.out.println("Parameterized-Constructor with 'schoolNumber' and 'name' parameters invoked.");
     }
 
     public Student(int schoolNumber, String name, String country) {
-        this(schoolNumber,name);
+        this(schoolNumber,name); //Constructor chaining---> calling a constructor from inside the other constructor
        /* this.schoolNumber = schoolNumber;
         this.name = name;*/
         this.country = country;
+        System.out.println("Parameterized-Constructor with 'schoolNumber', 'name' and country parameters invoked.");
     }
 
     public Student(int schoolNumber, String name, String country, String city) {
-        this(schoolNumber,name,country);
+        this(schoolNumber,name,country); //Constructor chaining---> calling a constructor from inside the other constructor
         /*this.schoolNumber = schoolNumber;
         this.name = name;
         this.country = country;*/
         this.city = city;
+        System.out.println("Parameterized-Constructor with 'schoolNumber', 'name', country and city parameters invoked.");
     }
 
     public String toString(){

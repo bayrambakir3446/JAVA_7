@@ -5,11 +5,12 @@ public class Ogrenci {
     String adi;
     int ogrNo;
 
-    final static String okulAdi = "EuroTech Study";//Sabit hale getirdik.
+    //Static vars...members of Class. Common for all instances of class.
+    final static String okulAdi = "EuroTech Study";//Sabit(Constant) hale getirdik.
     final static String okulAdresi = "Germany";
 
     public Ogrenci(String adi) {
-        okulNo++;
+        okulNo++;//Class static variable
         this.ogrNo = okulNo;
         this.adi = adi;
        /* this.okulAdi = okulAdi;

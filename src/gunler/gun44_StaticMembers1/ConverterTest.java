@@ -1,9 +1,5 @@
 package gunler.gun44_StaticMembers1;
 
-import gunler.gun34.Array;
-
-import java.awt.*;
-
 public class ConverterTest {
     public static void main(String[] args) {
         System.out.println("Converter.milesToKilometers(100) = " + Converter.milesToKilometers(100));

@@ -36,7 +36,7 @@ public class UlkelerTest {
         System.out.println("ulke3.dummyCounter = " + ulke3.dummyCounter);
 
         Ulkeler ulke5 = new Ulkeler("Hindistan","H",56);
-        System.out.println("ulke5.ulkelerSayac = " + ulke5.ulkelerSayac);
+        System.out.println("ulke5.ulkelerSayac = " + ulke5.ulkelerSayac);//Tercih edilmeyen yöntem
         System.out.println("Ulkeler.ulkelerSayac = " + Ulkeler.ulkelerSayac);//Doğru erişim yöntemi
     }
 }

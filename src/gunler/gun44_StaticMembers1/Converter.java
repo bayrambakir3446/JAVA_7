@@ -1,6 +1,7 @@
 package gunler.gun44_StaticMembers1;
 
 public class Converter {
+    //Utility veya helper Class.
     public static double milesToKilometers(double mile){
         return mile * 1.609;
     }

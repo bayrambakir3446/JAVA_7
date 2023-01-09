@@ -1,5 +1,9 @@
 package gunler.gun44_StaticMembers1;
 
+import gunler.gun34.Array;
+
+import java.awt.*;
+
 public class ConverterTest {
     public static void main(String[] args) {
         System.out.println("Converter.milesToKilometers(100) = " + Converter.milesToKilometers(100));
@@ -15,5 +19,10 @@ public class ConverterTest {
 
         System.out.println("Converter.kdvHesapla(100) = " + Converter.kdvHesapla(100));
 
+        System.out.println("Converter.boyKiloIndex(1.78,85) = " + Converter.boyKiloIndex(1.78, 85));
+
+        if ( Converter.boyKiloIndex(1.78, 85) > 20){
+            System.out.println("Obez...");
+        }
     }
 }

@@ -26,4 +26,7 @@ public class Converter {
     public static double kdvHesapla(double miktar){
         return miktar * 0.18;
     }
+    public static double boyKiloIndex(double boy, double kilo){
+        return kilo /(boy * boy);
+    }
 }

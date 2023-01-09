@@ -1,5 +1,7 @@
 package gunler.gun44_StaticMembers1;
 
+import gunler.gun42_Constructors2.Student.Kurs;
+
 public class HesapMakinesi {
     public static double sonuc;
 
@@ -16,6 +18,11 @@ public class HesapMakinesi {
         }
         System.out.println("sonuc = " + sonuc);
         sonuc=0;
+    }
+    public static void ogrenciEkle(Ogrenci... ogrenciler){//Var args
+        for (Ogrenci eleman:ogrenciler){
+            System.out.println("eleman = " + eleman);
+        }
     }
 
 }
